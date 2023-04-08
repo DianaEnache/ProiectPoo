@@ -5,7 +5,7 @@
 
 using namespace std;
 
-//CLASE: FILM,BILET,CLIENT,CINEMA,ANGAJAT,BAR,SEDIU CINEMA
+//CLASE: FILM,BILET,CLIENT,CINEMA,ANGAJAT,REZERVARI,BAR,SEDIU CINEMA
 
                                                 /**CLASA CLIENT*/
 class Client{
