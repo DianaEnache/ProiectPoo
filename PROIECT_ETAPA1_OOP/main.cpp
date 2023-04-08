@@ -17,7 +17,7 @@ class Client{
         int varsta_client;//pt reducere sub 18 ani
 
     public:
-//Constructorul este folosit pentru a inițializa obiecte din clasa Filme atunci când acestea sunt create.
+//Constructorul este folosit pentru a inițializa obiecte din clasa Client atunci când acestea sunt create.
 //Astfel, atunci când se creează un nou obiect Filme, se va apela acest constructor și variabilele membre
 //ale obiectului vor fi initializate cu valorile primite ca argumente.
 /**CONSTRUCTORI*/
@@ -654,7 +654,7 @@ class Bilet{
         int rand;
         int sala;
         bool VIP;
-        double pret_bilet;//metoda reducere elev/student
+        double pret_bilet;//ar merge o metoda reducere elev/student
         Client* client; //clase corelate prin compunere
 
     public:
@@ -739,7 +739,7 @@ class Bilet{
         this->pret_bilet=pret_bilet;
     }
 
-//Constructorul cu 1 parametru
+
     Bilet::Bilet(double pret_bilet,Client* client){
         int loc = 0;
         int rand = 0;
