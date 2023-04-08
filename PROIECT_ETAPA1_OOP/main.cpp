@@ -14,7 +14,7 @@ class Client{
         char* prenume_client;
         char* email_client;
         char* metoda_plata;//cash sau card
-        int varsta_client;//pt reducere sub 18 ani
+        int varsta_client;
 
     public:
 //Constructorul este folosit pentru a inițializa obiecte din clasa Client atunci când acestea sunt create.
