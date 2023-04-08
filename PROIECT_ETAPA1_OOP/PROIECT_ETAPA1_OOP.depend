@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1680973532 source:d:\!facultate\sem_2_fac\c++_proiect_op\proiect_etapa1_oop\main.cpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+
