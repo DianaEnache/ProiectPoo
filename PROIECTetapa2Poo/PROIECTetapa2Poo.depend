@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1682881689 source:d:\!facultate\proiectetapa2poo\main.cpp
+	<iostream>
+	<string.h>
+	<string>
+	<vector>
+	<cstdlib>
+	<algorithm>
+	<stdexcept>
+
